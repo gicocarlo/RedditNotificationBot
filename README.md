@@ -1,6 +1,6 @@
 # Reddit Notification Bot
 
-This is a Reddit bot that uses Python and PRAW (Python Reddit API Wrapper) to send the user a notification, via inbox, of a new post in any existing subreddit. It is ran on the command and will also display the new post on it as well.
+This is a Reddit bot that uses Python and PRAW (Python Reddit API Wrapper) to send the user a notification, via Reddit inbox, of a new post in any existing subreddit. It is ran on the command line and will also display the new post on it as well.
 
 ## Getting Started
 
@@ -17,7 +17,6 @@ pip install praw
 ### Installing
 
 Just clone the repository to your local machine 
-
 ```
 $ git clone https://github.com/RiceAbove/RedditNotificationBot.git
 ```
@@ -29,7 +28,7 @@ python main.py
 ## Built With
 
 * [Python](https://www.python.org/) - The programming language used
-* [PRAW](https://maven.apache.org/) - Python Reddit API Wrapper
+* [PRAW](https://praw.readthedocs.io/en/latest/) - Python Reddit API Wrapper
 
 
 ## Authors
