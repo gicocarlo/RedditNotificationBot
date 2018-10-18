@@ -16,13 +16,12 @@ pip install praw
 
 ### Installing
 
-Just clone the repository to your local machine and run it via command
-prompt
+Just clone the repository to your local machine 
 
 ```
-$ git clone https://github.com/RiceAbove/RedditNotificationBot
+$ git clone https://github.com/RiceAbove/RedditNotificationBot.git
 ```
-
+and run it via command prompt
 ```
 python main.py
 ```
