@@ -42,4 +42,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-This is one of my first side projects that I am proud to make and share with you guys. Learning how to make a reddit bot was not only fun but helped me gain the knowledge and experience with using an API/API wrapper for the first time. If there is any errors or improvement that you want to make to this don't hesitate to request a pull. I would love to collaborate with other people and learn :-)
+This is one of my first side projects that I am proud to make and share with you guys. Learning how to make a reddit bot was not only fun but helped me gain the knowledge and experience with using an API/API wrapper for the first time. If there is any errors or improvement that you want to make to this don't hesitate to do a pull request. I would love to collaborate with other people and learn :-)
