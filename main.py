@@ -68,10 +68,9 @@ def setup():
             print("Invalid subreddit. Try again")
             continue
 
-# Where everythign starts
+# Where everything starts
 def main():
     setup()
-
 
 # Runs the main function as soon as you start up the program via command line
 if __name__ == '__main__':
