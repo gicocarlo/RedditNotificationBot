@@ -8,10 +8,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-The only thing you installed in Python 3 and PRAW. Download Python 3 first and
-then install PRAW through pip
+The only thing you installed in Python 3 and PRAW. Install these using requirements.txt as shown below 
 ```
-pip install praw
+pip install -r requeriments.txt
 ```
 
 ### Installing
@@ -21,12 +20,6 @@ prompt
 
 ```
 $ git clone https://github.com/RiceAbove/RedditNotificationBot
-```
-
-=======
-Just clone the repository to your local machine 
-```
-$ git clone https://github.com/RiceAbove/RedditNotificationBot.git
 ```
 and run it via command prompt
 ```
