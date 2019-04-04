@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-The only thing you installed in Python 3 and PRAW. Install these using requirements.txt as shown below 
+The only thing you installed is PRAW. Install these using requirements.txt as shown below 
 ```
 pip install -r requeriments.txt
 ```
