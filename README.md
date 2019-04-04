@@ -29,13 +29,11 @@ python main.py
 ## Built With
 
 * [Python](https://www.python.org/) - The programming language used
-* [PRAW](https://maven.apache.org/) - Python Reddit API Wrapper
 * [PRAW](https://praw.readthedocs.io/en/latest/) - Python Reddit API Wrapper
 
 ## Authors (So far)
 
 * **Gico Carlo Evangelista** - [RiceAbove](https://github.com/RiceAbove)
-
 
 ## License
 
