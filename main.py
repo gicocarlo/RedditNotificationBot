@@ -15,13 +15,13 @@ def bot_login():
 
 # Your username input
 def redditor(reddit):
-    username = input('Add your username: ')
-    return reddit.redditor(str(username))
+    username = str(input('Add your username: '))
+    return reddit.redditor(username)
 
 # The subreddit you want notifications from
 def reddit_community(reddit):
-    reddit_page = input('Add a subreddit: ')
-    return reddit.subreddit(str(reddit_page))
+    reddit_page = str(input('Add a subreddit: '))
+    return reddit.subreddit(reddit_page)
 
 # The current time on your pc
 def local_time():
@@ -30,8 +30,8 @@ def local_time():
 # Will send a message notifying the user of a new post. If username is invalid it will restart the log in process
 def send_notification(reddit, redditor, title, link, subreddit):
     try:
-        redditor.message("New post from " + str(subreddit),
-                         str(title + " " + link))
+        redditor.message("New post from {}".format(subreddit), 
+                         "{} {}".format(title, link))
     except:
         print("Invalid Username. Try again")
         setup()
@@ -62,7 +62,7 @@ def setup():
             for submission in subreddit.stream.submissions():
                 stream(submission, reddit, user, init_time, subreddit)
         except KeyboardInterrupt:
-            print("\n" + "Thank you for using RedditNotificationBot! Goodbye!")
+            print("\nThank you for using RedditNotificationBot! Goodbye!")
             break
         except:
             print("Invalid subreddit. Try again")
