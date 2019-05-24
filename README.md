@@ -26,6 +26,13 @@ and run it via command prompt
 python main.py
 ```
 
+### Using the Bot
+
+In order to use the bot, you will have to create your own [reddit app](https://www.reddit.com/prefs/apps/)
+
+For more information about creating a bot, [go here](https://www.pythonforengineers.com/build-a-reddit-bot-part-1/)
+
+
 ## Built With
 
 * [Python](https://www.python.org/) - The programming language used
