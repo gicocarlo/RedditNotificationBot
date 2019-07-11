@@ -23,7 +23,7 @@ $ git clone https://github.com/RiceAbove/RedditNotificationBot
 ```
 and run it via command prompt
 ```
-python main.py
+python3 main.py
 ```
 
 ### Using the Bot
