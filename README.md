@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 The only thing you need to install is PRAW. Install these using requirements.txt as shown below 
 ```
-pip3 install -r requeriments.txt
+pip3 install -r requirements.txt
 ```
 
 ### Installing
