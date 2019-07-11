@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 The only thing you need to install is PRAW. Install these using requirements.txt as shown below 
 ```
-pip3 install -r requirements.txt
+$ pip3 install -r requirements.txt
 ```
 
 ### Installing
@@ -23,7 +23,7 @@ $ git clone https://github.com/RiceAbove/RedditNotificationBot
 ```
 and run it via command prompt
 ```
-python3 main.py
+$ python3 main.py
 ```
 
 ### Using the Bot
