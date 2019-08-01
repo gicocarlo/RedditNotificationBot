@@ -39,7 +39,7 @@ To make sure your fork is up-to-date, do the following:
 
 1. Do the following if you haven't cloned your remote repo to your local machine (If you have skip to step 2):
 ```
-$ git clone https://github.com/RiceAbove/RedditNotificationBot.git
+$ git clone https://github.com/[Username]/RedditNotificationBot.git
 ```
 
 2. If you haven't made an upstream, do the following:
