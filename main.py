@@ -1,14 +1,36 @@
 import praw
+from config import api
+from config import account
 from datetime import datetime
 
 # To access the bot. Makes a Reddit instance and returns it using PRAW
 def bot_login():
-    reddit = praw.Reddit(client_id='',
-                         client_secret='',
-                         username='',
-                         password='',
-                         user_agent='RedditNotificationBot by /u/CantTouchTheseNuts')
-    print("RedditNotifcationBot v.1.0.0. Created by Gico Carlo Evangelista")
+
+    # Get's all of the api/account data from your personal config.py file
+    # config.py should have the following format:
+    #
+    # api = {
+    #    'client_id':'',
+    #    'client_secret': ''
+    # }
+    #
+    # account = {
+    #    'username': '',
+    #    'password': ''
+    # }
+
+
+    id = api['client_id']
+    secret = api['client_secret']
+    user = account['username']
+    pass_word = account['password']
+
+    reddit = praw.Reddit(client_id=id,
+                         client_secret=secret,
+                         username=user,
+                         password=pass_word,
+                         user_agent='RedditNotificationBot')
+    print("RedditNotifcationBot v.1.0.0")
     return reddit
 
 # Helper functions
@@ -30,7 +52,7 @@ def local_time():
 # Will send a message notifying the user of a new post. If username is invalid it will restart the log in process
 def send_notification(reddit, redditor, title, link, subreddit):
     try:
-        redditor.message("New post from {}".format(subreddit), 
+        redditor.message("New post from {}".format(subreddit),
                          "{} {}".format(title, link))
     except:
         print("Invalid Username. Try again")
