@@ -17,9 +17,21 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-The only thing you need to install is PRAW. Install these using requirements.txt as shown below 
+The only thing you need to install is PRAW & to have a config.py file. Install these using requirements.txt as shown below 
 ```
 $ pip3 install -r requirements.txt
+```
+For config.py, have the following format
+```
+api = {
+    'client_id':'',
+    'client_secret': ''
+}
+
+account = {
+    'username': '',
+    'password': ''
+}
 ```
 
 ### Installing
