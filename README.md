@@ -2,6 +2,9 @@
 
 A Reddit bot that uses Python and PRAW (Python Reddit API Wrapper) to send the user a notification, via Reddit inbox, of a new post in any existing subreddit. 
 
+# UPDATE (March 10, 2021)
+After over 2 years, RedditNotificationBot has finally reached EOL. This is my very first side project ever, and will always have a special place in my heart. The original inspriation for this bot would be to get notifications whenever a new post would come into `r/FREE`, since getting free stuff from that subreddit is from a first come first serve basis. With little knowledge of networks & Python, creating this was a fun way to get my foot in the door with learning about making requests & accessing an API. So much has changed in these past 2 years, & I will always look back at this project as the starting point of my journey into creating fun projects. If I ever want to make a new version of this project, I will create a RedditNotificationBot-v2.
+
 ## About
 
 This is one of my first side projects that I am proud to make and share with you guys. Learning how to make a reddit bot was not only fun but helped me gain the knowledge and experience with using an API/API wrapper for the first time. If there is any errors or improvement that you want to make to this don't hesitate to request a pull. I would love to collaborate with other people and learn :-)
